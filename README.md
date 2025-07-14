@@ -38,6 +38,8 @@ Each column is described statistically using `pandas.describe()` and enriched wi
 2. **Vector Indexing**: These chunks are embedded and stored using `FAISS` for nearest-neighbor search.
 3. **Query Retrieval**: At runtime, the chatbot retrieves top-K relevant chunks based on semantic similarity to the query.
 4. **Contextual Answering**: These chunks, along with chat history, are fed into a TinyLlama-based text generation pipeline to produce an answer.
+## Snippet
+<img width="1700" height="734" alt="image" src="https://github.com/user-attachments/assets/03a2ba2a-c1a3-4045-bc5a-5930472d3f22" />
 
 ## 🧠 Prompt Template
 
