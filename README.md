@@ -88,7 +88,3 @@ This will produce a model-generated response grounded in dataset features like i
 - Ensure the dataset file is named correctly (`Training Dataset.csv`).
 - TinyLlama is used for fast inference; this can be swapped with a larger model if needed.
 - No external APIs or cloud resources are required—everything runs locally.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
